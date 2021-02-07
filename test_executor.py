@@ -5,8 +5,8 @@ from web.page_object.homePage import homePage
 
 up = after_before()
 down = after_before()
-lanza = homePage()
-area_privada = areaPrivadaPage()
+launch = homePage()
+private_area = areaPrivadaPage()
 fillform = fillformempresaPage()
 
 
@@ -15,15 +15,14 @@ def test_tear_up():
 
 
 def test_homePage():
-    lanza.test_accept_cookie()
-    lanza.test_title()
-    lanza.test_nav()
+    launch.test_accept_cookie()
+    launch.test_title()
+    launch.test_nav()
 
 
 def test_private_area():
-    area_privada.test_title()
-    # area_privada.tap_my_vodafone_particular()
-    area_privada.test_tap_my_vodafone_empresas()
+    private_area.test_title()
+    private_area.test_tap_my_vodafone_emvironment()
 
 
 def test_fill_form_enviroments():

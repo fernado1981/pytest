@@ -6,13 +6,13 @@ class fillformempresaPage(utility):
 
     def __init__(self):
         super().__init__()
-        self.data_my_empresa = locator.data_my_vodafone_empresa
+        self.data_my_environment = locator.data_my_vodafone_empresa
 
     def test_fill_user(self):
-        self.insert_name('fer', self.data_my_empresa['input_name'])
+        self.insert_name('fer', self.data_my_environment['input_name'])
 
     def test_fill_pass(self):
-        self.insert_pass('fernandito81', self.data_my_empresa['input_password'])
+        self.insert_pass('fernandito81', self.data_my_environment['input_password'])
 
     def test_acept(self):
         self.submit()

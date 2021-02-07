@@ -7,7 +7,7 @@ class homePage(utility):
     def __init__(self):
         super().__init__()
         self.data_home = locator.data_home
-        self.data_area_privada = locator.data_area_privada
+        self.data_private_area = locator.data_area_privada
 
     def test_accept_cookie(self):
         self.cookie()
@@ -19,4 +19,4 @@ class homePage(utility):
     def test_nav(self, option='soy_cliente'):
         self.nav_option(option)
         title = self.get_title()
-        assert title == self.data_area_privada['title_cliente']
+        assert title == self.data_private_area['title_cliente']
