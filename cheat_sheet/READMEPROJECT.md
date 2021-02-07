@@ -1,7 +1,7 @@
 <a name='top'></a>
 [Principal](../README.md)
 
-# Estructura del proyecto
+### Estructura del proyecto
 
     +-pytest
         +-cheat_sheet
