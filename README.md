@@ -6,8 +6,19 @@
     pip3 install pytest
     pip3 install selenium
 
+
+### Descargar los drivers necesarios para el navegador en este caso chromedriver:
+https://chromedriver.chromium.org/downloads
+
+### Referencias:
+
+- **selenium:** <https://www.selenium.dev/documentation/es/>
+- **pytest:** <https://docs.pytest.org/en/stable/>
+
+
 ### descargar los drivers necesarios para el navegador en este caso chromedriver:
 https://chromedriver.chromium.org/downloads
+
 
 ### ¿Qué es pytest?
 pytest es un framework para Python que ofrece la recolección automática de los tests, aserciones simples, soporte para fixtures, debugeo,...
